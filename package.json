@@ -44,6 +44,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/uncoverthefuture-org/uncover-ui"
+        "url": "https://github.com/uncoverthefuture-org/react-map-address-input"
     }
 }
