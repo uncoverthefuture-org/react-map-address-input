@@ -1,16 +1,17 @@
 {
-    "name": "@uncover-ui/rn-modal-provider",
-    "version": "0.1.8",
-    "description": "UncoverUI component library for React Native",
+    "name": "@uncover/react-map-address-input",
+    "version": "0.1.0",
+    "description": "Address input helpers for Google Places with optional Firebase-backed caching.",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "keywords": [
-        "react-native",
-        "components",
-        "react-native-modal",
-        "react-native-modal-provider",
-        "provider",
-        "uncover-ui"
+        "react",
+        "google-maps",
+        "google-places",
+        "autocomplete",
+        "firebase",
+        "address-input",
+        "uncover"
     ],
     "author": "uncoverthefuture",
     "license": "MIT",
@@ -28,23 +29,21 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "react-native-responsive-screen": "^1.4.2"
+        "react-google-autocomplete": "^1.2.4"
     },
     "devDependencies": {
+        "@types/google.maps": "^3.54.10",
         "@types/react": "^18.3.3",
-        "@types/react-native": "^0.73.0",
+        "firebase": "^10.0.0",
         "rimraf": "^5.0.7",
         "typescript": "^4.0.0"
     },
     "peerDependencies": {
-        "react": "^18.3.1",
-        "react-native": "^0.72.0",
-        "react-native-gesture-handler": "^2.17.1",
-        "react-native-responsive-screen": "^1.4.2"
+        "react": ">=16.8.0",
+        "firebase": "^10.0.0"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/uncoverthefuture-org/uncover-ui/tree/master/packages/react-native-modal-provider"
-    },
-    "gitHead": "c90f25977c8058bd61a25f3109276a6d9a5d87fd"
+        "url": "https://github.com/uncoverthefuture-org/uncover-ui"
+    }
 }
