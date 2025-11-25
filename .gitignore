@@ -14,3 +14,5 @@ tmp
 
 # Dependency directories
 /node_modules
+
+.yarn/unplugged
